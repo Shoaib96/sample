@@ -7,3 +7,37 @@
 #table1 {
     border-spacing: 10px 20px;
 }
+#table2 tr:hover {
+    background-color: antiquewhite;
+}
+#table3 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#table4 tr:nth-child(even) {
+    background-color: aqua;
+}
+#responsive {
+    overflow-y: auto;
+    height: 100px;
+    width: 200px;
+}
+#table5 {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: cursive; 
+    padding: 12px;
+}
+#th {
+    background-color: forestgreen;
+    color: white; 
+}
+#table5 tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+#table5 tr:hover {
+    background-color: forestgreen;
+}
