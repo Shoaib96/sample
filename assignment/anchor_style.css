@@ -1,0 +1,36 @@
+#anchor:hover {
+    color: red;
+}
+#anchor1:visited {
+    color: green;
+}
+#anchor2:active {
+    color: deeppink;
+}
+#anchor3:link {
+    color: yellow;
+}
+#anchor4:link {
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color: red;
+    text-align: center;
+    border-color:red;
+}
+#anchor5:link {
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: white;
+}
+#anchor5:hover {
+    background-color: green;
+    color: white;
+}
+#anchor6:hover {
+    font-family: cursive;
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: aqua;
+    border: 2px solid black;
+}
