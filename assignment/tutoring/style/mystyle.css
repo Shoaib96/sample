@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+.imgLogo {
+    height: 60px;
+    width: 13%;
+    float: left;
+}
+.nav {
+    height: 60px;
+    width: 87%;
+    background-color: #00e1f1;
+    float: left;
+}
+ul {
+    list-style-type: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 140px;
+    font-size: 20px;
+    float: right;
+}
+.nav ul li a:hover {
+    color: black;
+}
+.quote {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 170px;
+}
+.quote p {
+    font-family: cursive;
+    font-size: 28px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.content {
+    height: auto;
+    background-color: #00e1f1;
+    margin-top: -4px;
+}
+.content1 {
+    
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    overflow: auto;
+}
+.content p {
+    text-align: justify;
+    font-family:sans-serif;
+    color: #375b5d;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+.course ul li {
+    text-align: center;
+    color: #375b5d;
+    font-size: 22px;
+}
+.add {
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-left: 5em;
+    margin-top: 5%;
+}
+address {
+    text-align: center;
+    color: #375b5d;
+    font-size: 20px;
+}
+.add-ht {
+    height: 300px;
+    
+}
