@@ -1,0 +1,122 @@
+body {
+    background-image: url(images/bodybkg.gif);
+    background-repeat: repeat;
+}
+.container {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.header {
+    height: auto;
+}
+.header h1 {
+    text-align: left;
+    font-size: 48px;
+    font-family:sans-serif;
+    color: #cba060;
+    text-shadow: 2px 2px black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul {
+    list-style-type: none;
+}
+.nav {
+    height: 50px;
+    background-color: #2c1b11;
+    border-radius: 8px;
+}
+ul a li {
+    float: left;
+    padding: 14.5px;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #cba060;
+}
+.introimg {
+    height: 221px;
+    margin-top: 15px;
+    background-image: url(images/introbkg.png);
+    border-radius: 12px;
+    position: relative;
+    padding: 1px;
+}
+.introimg img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content {
+    height: auto;
+    width: 330px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.content h2 {
+    text-align: left;
+    color: white;
+}
+.content p {
+    color: #d6a964;
+    text-align: justify;
+}
+.content1 {
+    height: auto;
+    overflow: auto;
+    margin-top: 10px;
+    background-color: #ece7e2;
+}
+.inside-content1 {
+    width: 22%;
+    height: 410px;
+    background-color: #d6a965;
+    float: left;
+    margin: 15px;
+    border-radius: 8px;
+    
+}
+.inside-content1 img {
+    border: 8px solid white;
+    margin: 25px;
+    margin-bottom: 5px;
+}
+.inside-content1 h2 {
+    text-align: center;
+    color: #f3f9ff;
+}
+.inside-content1 p {
+    text-align: justify;
+    margin: 10px;
+    line-height: 20px;
+}
+.footer {
+    height: 220px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #261408;
+}
+.footer-content {
+    width: 33%;
+    margin-top: 10px;
+    height: 200px;
+    float: left;
+    background-color: #261408;
+}
+.footer-content h3, p {
+    color: white;
+    margin-left: 10px;
+    text-align: justify;
+}
+.footer-content p {
+    font-size: 14px;
+    line-height: 22px;
+}
